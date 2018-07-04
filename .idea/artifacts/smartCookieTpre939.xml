@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="smartCookieTpre939">
+    <output-path>$PROJECT_DIR$/out/artifacts/smartCookieTpre939</output-path>
+    <root id="archive" name="smartCookieTpre939.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="smartCookieNew" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="jstl:jstl:1.2" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="smartCookieNew/web/Web" />
+    </root>
+  </artifact>
+</component>
